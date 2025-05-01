@@ -99,6 +99,37 @@ src/
         └── static/
 ```
 
+
+## 🐳 Despliegue con Docker
+
+Este proyecto incluye un `Dockerfile` para facilitar su despliegue en contenedores.
+
+### Construir la imagen
+
+```bash
+docker build -t url-shortener-sb .
+```
+
+### Ejecutar el contenedor
+
+```bash
+docker run -d -p 8080:8080 --name url-shortener url-shortener-sb
+```
+
+La aplicación estará disponible en: `http://localhost:8080`
+
+### Ver logs del contenedor
+
+```bash
+docker logs -f url-shortener
+```
+
+### Detener y eliminar el contenedor
+
+```bash
+docker stop url-shortener && docker rm url-shortener
+```
+
 ## 🧑‍💻 Autor
 
 - [jsancue](https://github.com/jsancue)
