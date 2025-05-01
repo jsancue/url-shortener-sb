@@ -13,17 +13,20 @@ Este proyecto es un acortador de URLs desarrollado con Spring Boot. Permite conv
 
 ## 🛠️ Tecnologías utilizadas
 
-- Java 17+
+- Java 23
 - Spring Boot
+- Spring Security
 - Spring Data JPA
-- H2 Database (por defecto, puedes cambiar a PostgreSQL, MySQL, etc.)
+- PostgreSQL Database
+- JSON Web Tokens (JWT)
+- Lombok
 - Maven
 
 ## 📦 Instalación y ejecución
 
 ### Prerrequisitos
 
-- JDK 17 o superior
+- JDK 23 o superior
 - Maven
 
 ### Clonar el repositorio
