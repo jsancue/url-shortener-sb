@@ -1,6 +1,7 @@
 # 📎 URL Shortener - Spring Boot
 
 Este proyecto es un acortador de URLs desarrollado con Spring Boot. Permite convertir URLs largas en enlaces cortos y redirigirlas correctamente, ideal como herramienta de aprendizaje sobre desarrollo web, persistencia y APIs REST.
+Repositorio del Frontend: https://github.com/jsancue/url-short-react
 
 ## 🚀 Características
 
@@ -89,9 +90,11 @@ Puedes probar los endpoints usando Postman, curl o tu navegador.
 src/
 └── main/
     ├── java/com/example/urlshortener/
-    │   ├── controller/
-    │   ├── model/
+    │   ├── controllers/
+    │   ├── dtos/
+    │   ├── models/
     │   ├── repository/
+    │   ├── security/
     │   ├── service/
     │   └── UrlShortenerApplication.java
     └── resources/
